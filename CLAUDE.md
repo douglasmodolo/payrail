@@ -33,6 +33,10 @@ defend every choice in an interview.
 
 One session per problem. What carries over between sessions is the repo, not the chat.
 
+One branch and one PR per problem (e.g. `p1-money-accounts`): the ADR, code and tests land
+together. Small, frequent commits inside the branch. Until P5, small doc tweaks may go
+straight to `main`; after P5, everything goes through a PR.
+
 ## Conventions
 
 - Code, names, commits and ADRs in English. Conversation and `docs/problems.md` in
